@@ -22,7 +22,7 @@ def pregunta_01():
     import pandas as pd
 
     # Define the path to the uploaded file
-    file_path = 'files\input\clusters_report.txt'
+    file_path = 'files/input/clusters_report.txt'
 
     # Read and process the file
     with open(file_path, 'r', encoding='utf-8') as file:
